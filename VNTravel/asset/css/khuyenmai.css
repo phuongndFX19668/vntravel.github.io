@@ -1,0 +1,84 @@
+@import url(base.css);
+.tour {
+    margin: 80px 0;
+}
+.tour__content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tour__section--title {
+    font-size: 32px;
+    color: #222;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.tour__content p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #919191;
+}
+.tour__list {
+
+}
+.tour__item {
+    display: block;
+    padding-top: 425px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 50px;
+}
+.tour__item__container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(49, 18, 75, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 20px 0;
+}
+.tour__item__date {
+    font-size: 13px;
+    color: var(--white-color);
+    background: var(--primary-color);
+    padding: 4px 20px;
+    max-width: 210px;
+    text-align: center;
+    border-radius: 20px;
+}
+.tour__item__content {
+    text-align: center;
+}
+.tour__item__title {
+    font-size: 59px;
+    line-height: 59px;
+    color: var(--white-color);
+    margin-bottom: 10px;
+}
+.tour__item__price {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: rgb(255, 104, 17);
+}
+.tour__item__price > span {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.tour__item__rating i {
+    font-size: 18px;
+}
+.tour__item__rating .rated {
+    color: #fbb53d;
+}
+.tour__item__rating i:nth-child(5) {
+    color: #a5a5a5;
+}

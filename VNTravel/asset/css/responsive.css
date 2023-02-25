@@ -1,0 +1,155 @@
+/* Only PC */
+@media (min-width:1023px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+
+/* Pc and Tablet */
+@media (min-width:740px) {
+    .hide-on-pc-tb {
+        display: none;
+    }
+}
+
+/* Only Tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    .hide-on-tb {
+        display: none;
+    }
+    h1.head__slider--heading {
+        font-size: 70px;
+    }
+    
+}
+
+
+/* Mobile and Tablet */
+@media (max-width:1023px) {
+    .hide-on-low-devices {
+        display: none;
+    }
+    .header-nav__search-input {
+        width: 100%;
+    }
+    .head__mb--bars {
+        display: block;
+    }
+    .head__nav__mb--bar {
+        display: block;
+    }
+    .offers__content__review--text {
+        display: none;
+    }
+}
+
+
+/* Only Mobile */
+@media (max-width:740px) {
+    .hide-on-mb{
+        display: none !important;
+    }
+    .header__topbar {
+        display: none;
+    }
+    .head__nav__container {
+        padding: 25px 0;
+    }
+    .head__nav__icon--logo {
+        font-size: 25px;
+    }
+    h1.head__slider--heading {
+        font-size: 26px;
+    }
+    span.head__slider--heading {
+        font-size: 30px;
+    }
+    .search__container {
+        padding: 60px 8px;
+    }
+    .trending__container {
+        padding: 0 8px;
+    }
+    .trending__item {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__item__content,
+    .trending__itme__place,
+    .trending__item__name {
+        font-size: 12px;
+    }
+    .trending__item__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+    footer .footer__container {
+        padding: 50px 8px 0;
+    }
+    .head__nav__container--logo,
+    .head__nav__mb--bar i,
+    .section__title,
+    .head__nav__icon--logo,
+    .footer__logo--name {
+        font-size: 20px;
+    }
+    .head__mb__bar--link {
+        font-size: 18px;
+    }
+    /* Đề xuất  */
+    .offers__container__filter,
+    .offers__container__item {
+        padding: 0 15px;
+    }
+    .offers__item__img--content {
+        height: calc((100vw - 30px) / 0.974);
+    }
+    .offers__item__content {
+        margin-top: 15px;
+    }
+    .offers__item__price {
+        font-size: 20px;
+    }
+    /* Khuyến mãi  */
+    .tour {
+        padding: 0 8px;
+    }
+    .tour__section--title {
+        font-size: 25px;
+        line-height: 1;
+    }
+    .tour__content > p {
+        font-size: 16px;
+    }
+    .tour__item__title {
+        font-size: 40px;
+    }
+    .tour__item__price {
+        font-size: 12px;
+    }
+    .tour__item__rating i {
+        font-size: 14px;
+    }
+    /* news */
+    .news {
+        padding: 0 8px;
+    }
+    .news__container--title {
+        font-size: 20px;
+        line-height: 1;
+    }
+    .news__item__body span {
+        font-size: 16px;
+    }
+    .news__item__body p {
+        font-size: 12px;
+    }
+    /* liên hệ  */
+    .contact__input1 {
+        margin-right: 10px;
+        width: calc((100% - 16px));
+    }
+}
