@@ -1,0 +1,54 @@
+@import url(base.css);
+header {
+    margin-bottom: 50px;
+}
+.footer {
+    margin-top: 50px;
+}
+.contact {
+    position: relative;
+}
+.contact__container {
+    background: linear-gradient(to right, #fa9e1b, #8d4fff);
+    padding: 80px 50px;
+    border-radius: 10px;
+}
+.contact__header {
+    font-size: 30px;
+    color: var(--white-color);
+    font-weight: 700;
+}
+.contact__form {
+    margin: 50px 0;
+    color: #fff;
+}
+.contact__input {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 12px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: solid 2px #e1e1e1;
+    margin-bottom: 20px;
+    width: calc(100% - 16px);
+}
+.contact__input1 {
+    margin-right: 10px;
+    width: calc((100% - 30px)/2);
+}
+.contact__btn {
+    background: #31124b;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
